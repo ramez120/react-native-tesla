@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#fff",
         alignItems: "center",
         justifyContent: "center",
+     
       },
       carContainer: {
         width : '100%',
@@ -29,6 +30,15 @@ const styles = StyleSheet.create({
         width : '100%',
         resizeMode : "cover",
         position : "absolute",
+      },
+      buttonContainer :{
+        position : 'absolute',
+        width : '100%',
+        bottom : 50
+      },
+      subtag :{
+        textDecorationLine : 'underline'
       }
 })
 export default styles;
+
